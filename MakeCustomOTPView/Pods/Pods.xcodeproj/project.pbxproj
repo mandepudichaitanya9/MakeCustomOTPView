@@ -1,0 +1,974 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BABC4DEEAC8F754A2710436840F26D0 /* Pods-MakeCustomOTPViewTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE632F2630E8CC558A6F8950FF25D102 /* Pods-MakeCustomOTPViewTests-dummy.m */; };
+		19566CED5C43AB99F059D9DA194B80A7 /* OTPFieldView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E9346F98842D0CB2A8504ED828E2A6 /* OTPFieldView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D1154F71EF3CA784B018E60ECF74829 /* Pods-MakeCustomOTPViewTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E40EAFE9275C1F7F74C2EA038014F3E5 /* Pods-MakeCustomOTPViewTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D025900F24582159C5DC7497578915E /* Pods-MakeCustomOTPView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2798A6B98217A52BC290734B92FC7E89 /* Pods-MakeCustomOTPView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69B1F4A7FDD0AF86610E59542EDA0143 /* Pods-MakeCustomOTPView-MakeCustomOTPViewUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CAE3155817A66564034D111A4D5D706 /* Pods-MakeCustomOTPView-MakeCustomOTPViewUITests-dummy.m */; };
+		6D8D07670248D06024602E0DFDA8FFBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		778D379DA472B7960C3AD5793AC46BE0 /* OTPFieldView.h in Headers */ = {isa = PBXBuildFile; fileRef = 18CF8ED012FB3EF922FA8032F1FAA4A6 /* OTPFieldView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B4F2388F701CDD0B61282F4E1186C2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		846C7F90ECD0622D8190ED91977D2339 /* Pods-MakeCustomOTPView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8968732B31CE854C09F959EE3E5CEE6 /* Pods-MakeCustomOTPView-dummy.m */; };
+		9BBDB05930AFE1AE024A279387905F0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9DB4CBDFE92F4E8ED8DEF17B0D55548B /* OTPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5113F055FF5075138ED4F007081A87 /* OTPTextField.swift */; };
+		A60AE45490BFB435DFE76393A09D4400 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		AE3A3FF9A48A17875E549C5C3DC3FC1B /* OTPFieldView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BD96E7CFB8151FAD8A584DCBED39FB /* OTPFieldView-dummy.m */; };
+		BF5C187D8C85AB3548B6EA7CE4B3B032 /* OTPFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502E91157746B09FB43BBD4ABFE43F81 /* OTPFieldView.swift */; };
+		E2F7683112BB3D09B1F7C533A3A1B33D /* Pods-MakeCustomOTPView-MakeCustomOTPViewUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C23527F1F8A81EE58DD64041454913 /* Pods-MakeCustomOTPView-MakeCustomOTPViewUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47BDFF714E5952DEE33F0A23D618F1C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BFA50DA07196AD4DB6512C559850F45;
+			remoteInfo = OTPFieldView;
+		};
+		B152BA27118CC2E6376A952ACA8511BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BFA50DA07196AD4DB6512C559850F45;
+			remoteInfo = OTPFieldView;
+		};
+		EC5B6BFDAF6A657F1E74C3719EC860EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FEAC889165DC7FBFF8AEB87F43B9BC4;
+			remoteInfo = "Pods-MakeCustomOTPView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1433388F45F791C34D456EB6FB36A979 /* Pods-MakeCustomOTPView-MakeCustomOTPViewUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MakeCustomOTPView-MakeCustomOTPViewUITests"; path = Pods_MakeCustomOTPView_MakeCustomOTPViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CF8ED012FB3EF922FA8032F1FAA4A6 /* OTPFieldView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OTPFieldView.h; path = OTPFieldView/OTPFieldView.h; sourceTree = "<group>"; };
+		1A5113F055FF5075138ED4F007081A87 /* OTPTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OTPTextField.swift; path = OTPFieldView/OTPTextField.swift; sourceTree = "<group>"; };
+		1AE4A266050A08B2623B04F6E68FB0FF /* OTPFieldView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTPFieldView.release.xcconfig; sourceTree = "<group>"; };
+		1D4749F953AFADC09A51EC39863F8390 /* Pods-MakeCustomOTPView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MakeCustomOTPView-acknowledgements.markdown"; sourceTree = "<group>"; };
+		22A52650E7F9C2676C2590C717D40498 /* Pods-MakeCustomOTPView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MakeCustomOTPView.release.xcconfig"; sourceTree = "<group>"; };
+		266F171207C7FA8CAC5318B5903C8B40 /* Pods-MakeCustomOTPView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MakeCustomOTPView-frameworks.sh"; sourceTree = "<group>"; };
+		2798A6B98217A52BC290734B92FC7E89 /* Pods-MakeCustomOTPView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MakeCustomOTPView-umbrella.h"; sourceTree = "<group>"; };
+		2D51D383EEA1B3F42CF4833A113DF2F2 /* Pods-MakeCustomOTPView-MakeCustomOTPViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MakeCustomOTPView-MakeCustomOTPViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		32C23527F1F8A81EE58DD64041454913 /* Pods-MakeCustomOTPView-MakeCustomOTPViewUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MakeCustomOTPView-MakeCustomOTPViewUITests-umbrella.h"; sourceTree = "<group>"; };
+		34C500F7E55CFAD4601BC772550F6CC1 /* Pods-MakeCustomOTPView-MakeCustomOTPViewUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MakeCustomOTPView-MakeCustomOTPViewUITests.modulemap"; sourceTree = "<group>"; };
+		4461C71930FC59F443FE7A17B7CD32A1 /* OTPFieldView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OTPFieldView-Info.plist"; sourceTree = "<group>"; };
+		4B47AB64B12843898E0FD25BA9FE0EB2 /* Pods-MakeCustomOTPView-MakeCustomOTPViewUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MakeCustomOTPView-MakeCustomOTPViewUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		502E91157746B09FB43BBD4ABFE43F81 /* OTPFieldView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OTPFieldView.swift; path = OTPFieldView/OTPFieldView.swift; sourceTree = "<group>"; };
+		5C0876266E10E2B4FFCF018BEFE13EBF /* OTPFieldView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTPFieldView-prefix.pch"; sourceTree = "<group>"; };
+		5D9821D661375AA2A3CC223A7E2BCE40 /* Pods-MakeCustomOTPViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MakeCustomOTPViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DE5B5BB8B8E58743C55B10761D02C25 /* Pods-MakeCustomOTPView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MakeCustomOTPView.debug.xcconfig"; sourceTree = "<group>"; };
+		66191B2C4F1332E0627631A3133F9E0A /* Pods-MakeCustomOTPView-MakeCustomOTPViewUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MakeCustomOTPView-MakeCustomOTPViewUITests-frameworks.sh"; sourceTree = "<group>"; };
+		6C0BBF20B63D8D15BFB421A7BA47FA35 /* Pods-MakeCustomOTPViewTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MakeCustomOTPViewTests.modulemap"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7656F67731DDA843A0D8A269B64DF8AE /* Pods-MakeCustomOTPViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MakeCustomOTPViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		81BF675724B7F54FF2A53BC5593CE7E3 /* OTPFieldView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OTPFieldView.modulemap; sourceTree = "<group>"; };
+		8A93F970D68848A437AC864355060B0D /* Pods-MakeCustomOTPViewTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MakeCustomOTPViewTests-Info.plist"; sourceTree = "<group>"; };
+		8C7C6180064337483B7F9B069B53DC86 /* Pods-MakeCustomOTPViewTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MakeCustomOTPViewTests"; path = Pods_MakeCustomOTPViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9325E2EA3D1C7A949E241A33D679D860 /* Pods-MakeCustomOTPView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MakeCustomOTPView"; path = Pods_MakeCustomOTPView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CAE3155817A66564034D111A4D5D706 /* Pods-MakeCustomOTPView-MakeCustomOTPViewUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MakeCustomOTPView-MakeCustomOTPViewUITests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EA61AF974A5CB8F88D66A0598A491D8 /* OTPFieldView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTPFieldView.debug.xcconfig; sourceTree = "<group>"; };
+		A0804AF52D0F173FC9361135F8071B67 /* Pods-MakeCustomOTPView-MakeCustomOTPViewUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MakeCustomOTPView-MakeCustomOTPViewUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A3B6296287EEBEE58E9043D4AF0E7168 /* Pods-MakeCustomOTPView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MakeCustomOTPView.modulemap"; sourceTree = "<group>"; };
+		A8968732B31CE854C09F959EE3E5CEE6 /* Pods-MakeCustomOTPView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MakeCustomOTPView-dummy.m"; sourceTree = "<group>"; };
+		AF0A0A23DB3C49DBE04276D0DE03FA8B /* Pods-MakeCustomOTPView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MakeCustomOTPView-acknowledgements.plist"; sourceTree = "<group>"; };
+		BE632F2630E8CC558A6F8950FF25D102 /* Pods-MakeCustomOTPViewTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MakeCustomOTPViewTests-dummy.m"; sourceTree = "<group>"; };
+		C446E41E5C1975BC60D6A711F547DEB8 /* Pods-MakeCustomOTPViewTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MakeCustomOTPViewTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D122275146A24EDF5B13EA365FFCA28D /* Pods-MakeCustomOTPView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MakeCustomOTPView-Info.plist"; sourceTree = "<group>"; };
+		D8BD96E7CFB8151FAD8A584DCBED39FB /* OTPFieldView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OTPFieldView-dummy.m"; sourceTree = "<group>"; };
+		E0F354F1959D55F86A99636EC7CA1F2F /* Pods-MakeCustomOTPViewTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MakeCustomOTPViewTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E40C3CF05AE9CE3B5FD895ED32355FC8 /* Pods-MakeCustomOTPView-MakeCustomOTPViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MakeCustomOTPView-MakeCustomOTPViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E40EAFE9275C1F7F74C2EA038014F3E5 /* Pods-MakeCustomOTPViewTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MakeCustomOTPViewTests-umbrella.h"; sourceTree = "<group>"; };
+		F5E9346F98842D0CB2A8504ED828E2A6 /* OTPFieldView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTPFieldView-umbrella.h"; sourceTree = "<group>"; };
+		F63C2186406EB2F7D41CBE375AD79F5C /* Pods-MakeCustomOTPView-MakeCustomOTPViewUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MakeCustomOTPView-MakeCustomOTPViewUITests-Info.plist"; sourceTree = "<group>"; };
+		FD1309C85A2B4DD96C17CEE227B41C92 /* OTPFieldView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OTPFieldView; path = OTPFieldView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		861EB4B09C31B4A3624799DE9DB95FAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BBDB05930AFE1AE024A279387905F0C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A47953D39050ACBBD4248DB745141A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D8D07670248D06024602E0DFDA8FFBA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A21843CC7E3CD122264BA4FF4BCD6BF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A60AE45490BFB435DFE76393A09D4400 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D891B217A5F97CE5EC85ED5DA7133114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B4F2388F701CDD0B61282F4E1186C2E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CD7A51CE45537B6CEAD12222EFAE172 /* Pods-MakeCustomOTPView-MakeCustomOTPViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34C500F7E55CFAD4601BC772550F6CC1 /* Pods-MakeCustomOTPView-MakeCustomOTPViewUITests.modulemap */,
+				A0804AF52D0F173FC9361135F8071B67 /* Pods-MakeCustomOTPView-MakeCustomOTPViewUITests-acknowledgements.markdown */,
+				4B47AB64B12843898E0FD25BA9FE0EB2 /* Pods-MakeCustomOTPView-MakeCustomOTPViewUITests-acknowledgements.plist */,
+				9CAE3155817A66564034D111A4D5D706 /* Pods-MakeCustomOTPView-MakeCustomOTPViewUITests-dummy.m */,
+				66191B2C4F1332E0627631A3133F9E0A /* Pods-MakeCustomOTPView-MakeCustomOTPViewUITests-frameworks.sh */,
+				F63C2186406EB2F7D41CBE375AD79F5C /* Pods-MakeCustomOTPView-MakeCustomOTPViewUITests-Info.plist */,
+				32C23527F1F8A81EE58DD64041454913 /* Pods-MakeCustomOTPView-MakeCustomOTPViewUITests-umbrella.h */,
+				2D51D383EEA1B3F42CF4833A113DF2F2 /* Pods-MakeCustomOTPView-MakeCustomOTPViewUITests.debug.xcconfig */,
+				E40C3CF05AE9CE3B5FD895ED32355FC8 /* Pods-MakeCustomOTPView-MakeCustomOTPViewUITests.release.xcconfig */,
+			);
+			name = "Pods-MakeCustomOTPView-MakeCustomOTPViewUITests";
+			path = "Target Support Files/Pods-MakeCustomOTPView-MakeCustomOTPViewUITests";
+			sourceTree = "<group>";
+		};
+		222B235A453E244826B53704072DA073 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A231A34098D8D5520A9026797E8A81E3 /* Pods-MakeCustomOTPView */,
+				0CD7A51CE45537B6CEAD12222EFAE172 /* Pods-MakeCustomOTPView-MakeCustomOTPViewUITests */,
+				68799115594AB8A556B65DC32EAA7F9C /* Pods-MakeCustomOTPViewTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		68799115594AB8A556B65DC32EAA7F9C /* Pods-MakeCustomOTPViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C0BBF20B63D8D15BFB421A7BA47FA35 /* Pods-MakeCustomOTPViewTests.modulemap */,
+				E0F354F1959D55F86A99636EC7CA1F2F /* Pods-MakeCustomOTPViewTests-acknowledgements.markdown */,
+				C446E41E5C1975BC60D6A711F547DEB8 /* Pods-MakeCustomOTPViewTests-acknowledgements.plist */,
+				BE632F2630E8CC558A6F8950FF25D102 /* Pods-MakeCustomOTPViewTests-dummy.m */,
+				8A93F970D68848A437AC864355060B0D /* Pods-MakeCustomOTPViewTests-Info.plist */,
+				E40EAFE9275C1F7F74C2EA038014F3E5 /* Pods-MakeCustomOTPViewTests-umbrella.h */,
+				5D9821D661375AA2A3CC223A7E2BCE40 /* Pods-MakeCustomOTPViewTests.debug.xcconfig */,
+				7656F67731DDA843A0D8A269B64DF8AE /* Pods-MakeCustomOTPViewTests.release.xcconfig */,
+			);
+			name = "Pods-MakeCustomOTPViewTests";
+			path = "Target Support Files/Pods-MakeCustomOTPViewTests";
+			sourceTree = "<group>";
+		};
+		A231A34098D8D5520A9026797E8A81E3 /* Pods-MakeCustomOTPView */ = {
+			isa = PBXGroup;
+			children = (
+				A3B6296287EEBEE58E9043D4AF0E7168 /* Pods-MakeCustomOTPView.modulemap */,
+				1D4749F953AFADC09A51EC39863F8390 /* Pods-MakeCustomOTPView-acknowledgements.markdown */,
+				AF0A0A23DB3C49DBE04276D0DE03FA8B /* Pods-MakeCustomOTPView-acknowledgements.plist */,
+				A8968732B31CE854C09F959EE3E5CEE6 /* Pods-MakeCustomOTPView-dummy.m */,
+				266F171207C7FA8CAC5318B5903C8B40 /* Pods-MakeCustomOTPView-frameworks.sh */,
+				D122275146A24EDF5B13EA365FFCA28D /* Pods-MakeCustomOTPView-Info.plist */,
+				2798A6B98217A52BC290734B92FC7E89 /* Pods-MakeCustomOTPView-umbrella.h */,
+				5DE5B5BB8B8E58743C55B10761D02C25 /* Pods-MakeCustomOTPView.debug.xcconfig */,
+				22A52650E7F9C2676C2590C717D40498 /* Pods-MakeCustomOTPView.release.xcconfig */,
+			);
+			name = "Pods-MakeCustomOTPView";
+			path = "Target Support Files/Pods-MakeCustomOTPView";
+			sourceTree = "<group>";
+		};
+		A8D7B76B42CA63D26FE76F97F5F69E9B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C29EF4CA39CD99DA75C239869F68A1EE /* OTPFieldView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B6D44D78853DCEF411689A86F28A0EC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD1309C85A2B4DD96C17CEE227B41C92 /* OTPFieldView */,
+				9325E2EA3D1C7A949E241A33D679D860 /* Pods-MakeCustomOTPView */,
+				1433388F45F791C34D456EB6FB36A979 /* Pods-MakeCustomOTPView-MakeCustomOTPViewUITests */,
+				8C7C6180064337483B7F9B069B53DC86 /* Pods-MakeCustomOTPViewTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9366DED576B5498B3A40D85FA492C12 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				81BF675724B7F54FF2A53BC5593CE7E3 /* OTPFieldView.modulemap */,
+				D8BD96E7CFB8151FAD8A584DCBED39FB /* OTPFieldView-dummy.m */,
+				4461C71930FC59F443FE7A17B7CD32A1 /* OTPFieldView-Info.plist */,
+				5C0876266E10E2B4FFCF018BEFE13EBF /* OTPFieldView-prefix.pch */,
+				F5E9346F98842D0CB2A8504ED828E2A6 /* OTPFieldView-umbrella.h */,
+				9EA61AF974A5CB8F88D66A0598A491D8 /* OTPFieldView.debug.xcconfig */,
+				1AE4A266050A08B2623B04F6E68FB0FF /* OTPFieldView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OTPFieldView";
+			sourceTree = "<group>";
+		};
+		C29EF4CA39CD99DA75C239869F68A1EE /* OTPFieldView */ = {
+			isa = PBXGroup;
+			children = (
+				18CF8ED012FB3EF922FA8032F1FAA4A6 /* OTPFieldView.h */,
+				502E91157746B09FB43BBD4ABFE43F81 /* OTPFieldView.swift */,
+				1A5113F055FF5075138ED4F007081A87 /* OTPTextField.swift */,
+				B9366DED576B5498B3A40D85FA492C12 /* Support Files */,
+			);
+			name = OTPFieldView;
+			path = OTPFieldView;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A8D7B76B42CA63D26FE76F97F5F69E9B /* Pods */,
+				B6D44D78853DCEF411689A86F28A0EC4 /* Products */,
+				222B235A453E244826B53704072DA073 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		512D069EA14F2A50E8E6A3F4A49009E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				778D379DA472B7960C3AD5793AC46BE0 /* OTPFieldView.h in Headers */,
+				19566CED5C43AB99F059D9DA194B80A7 /* OTPFieldView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84335AE0F2443FCF75BE991A26126D8B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D025900F24582159C5DC7497578915E /* Pods-MakeCustomOTPView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895046538A1A503CAF255EBF35004831 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D1154F71EF3CA784B018E60ECF74829 /* Pods-MakeCustomOTPViewTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E98F24184DD7538CF47EEE9E2D04F244 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F7683112BB3D09B1F7C533A3A1B33D /* Pods-MakeCustomOTPView-MakeCustomOTPViewUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		245C0D37846FF8E5BD9AF13FE6ACA065 /* Pods-MakeCustomOTPView-MakeCustomOTPViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAA42B2198721279300A657BBE08822C /* Build configuration list for PBXNativeTarget "Pods-MakeCustomOTPView-MakeCustomOTPViewUITests" */;
+			buildPhases = (
+				E98F24184DD7538CF47EEE9E2D04F244 /* Headers */,
+				17AC7BB17FB3F2E29CE523CB7B58E6BF /* Sources */,
+				9A47953D39050ACBBD4248DB745141A2 /* Frameworks */,
+				FAF5D89597A7EF931223C42148C7D3F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0724ED0AFB139A12A141D4109A696966 /* PBXTargetDependency */,
+			);
+			name = "Pods-MakeCustomOTPView-MakeCustomOTPViewUITests";
+			productName = Pods_MakeCustomOTPView_MakeCustomOTPViewUITests;
+			productReference = 1433388F45F791C34D456EB6FB36A979 /* Pods-MakeCustomOTPView-MakeCustomOTPViewUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		3BFA50DA07196AD4DB6512C559850F45 /* OTPFieldView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6433D111B6A10EB550A13E319D96F871 /* Build configuration list for PBXNativeTarget "OTPFieldView" */;
+			buildPhases = (
+				512D069EA14F2A50E8E6A3F4A49009E5 /* Headers */,
+				7169D6FD44672A7DD71CF81A51DCA21C /* Sources */,
+				A21843CC7E3CD122264BA4FF4BCD6BF5 /* Frameworks */,
+				5718415F2B342E587E537EDAE0A6A04A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OTPFieldView;
+			productName = OTPFieldView;
+			productReference = FD1309C85A2B4DD96C17CEE227B41C92 /* OTPFieldView */;
+			productType = "com.apple.product-type.framework";
+		};
+		4FEAC889165DC7FBFF8AEB87F43B9BC4 /* Pods-MakeCustomOTPView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AAF05F345D5DE29CC573BD62267AA91 /* Build configuration list for PBXNativeTarget "Pods-MakeCustomOTPView" */;
+			buildPhases = (
+				84335AE0F2443FCF75BE991A26126D8B /* Headers */,
+				26D7133587ED6949510B9C1B079C8A19 /* Sources */,
+				861EB4B09C31B4A3624799DE9DB95FAD /* Frameworks */,
+				24C724166350DE5B5B07DF40943CB21D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63758DDD76A1386DC0D545AFD4CB08EE /* PBXTargetDependency */,
+			);
+			name = "Pods-MakeCustomOTPView";
+			productName = Pods_MakeCustomOTPView;
+			productReference = 9325E2EA3D1C7A949E241A33D679D860 /* Pods-MakeCustomOTPView */;
+			productType = "com.apple.product-type.framework";
+		};
+		5BAA97A86584B1EEE39BE7AE361ADDBD /* Pods-MakeCustomOTPViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6726DE7B9ECF5A2EBEB598193798B743 /* Build configuration list for PBXNativeTarget "Pods-MakeCustomOTPViewTests" */;
+			buildPhases = (
+				895046538A1A503CAF255EBF35004831 /* Headers */,
+				854B0D32CFE914988480D3AF4D22C1A1 /* Sources */,
+				D891B217A5F97CE5EC85ED5DA7133114 /* Frameworks */,
+				C6F8AC1D48DAC226DD3D754E354B73FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4430A5DB2F6594884482515817400E4B /* PBXTargetDependency */,
+			);
+			name = "Pods-MakeCustomOTPViewTests";
+			productName = Pods_MakeCustomOTPViewTests;
+			productReference = 8C7C6180064337483B7F9B069B53DC86 /* Pods-MakeCustomOTPViewTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B6D44D78853DCEF411689A86F28A0EC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BFA50DA07196AD4DB6512C559850F45 /* OTPFieldView */,
+				4FEAC889165DC7FBFF8AEB87F43B9BC4 /* Pods-MakeCustomOTPView */,
+				245C0D37846FF8E5BD9AF13FE6ACA065 /* Pods-MakeCustomOTPView-MakeCustomOTPViewUITests */,
+				5BAA97A86584B1EEE39BE7AE361ADDBD /* Pods-MakeCustomOTPViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24C724166350DE5B5B07DF40943CB21D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5718415F2B342E587E537EDAE0A6A04A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6F8AC1D48DAC226DD3D754E354B73FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF5D89597A7EF931223C42148C7D3F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17AC7BB17FB3F2E29CE523CB7B58E6BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B1F4A7FDD0AF86610E59542EDA0143 /* Pods-MakeCustomOTPView-MakeCustomOTPViewUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26D7133587ED6949510B9C1B079C8A19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846C7F90ECD0622D8190ED91977D2339 /* Pods-MakeCustomOTPView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7169D6FD44672A7DD71CF81A51DCA21C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5C187D8C85AB3548B6EA7CE4B3B032 /* OTPFieldView.swift in Sources */,
+				AE3A3FF9A48A17875E549C5C3DC3FC1B /* OTPFieldView-dummy.m in Sources */,
+				9DB4CBDFE92F4E8ED8DEF17B0D55548B /* OTPTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		854B0D32CFE914988480D3AF4D22C1A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BABC4DEEAC8F754A2710436840F26D0 /* Pods-MakeCustomOTPViewTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0724ED0AFB139A12A141D4109A696966 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OTPFieldView;
+			target = 3BFA50DA07196AD4DB6512C559850F45 /* OTPFieldView */;
+			targetProxy = B152BA27118CC2E6376A952ACA8511BD /* PBXContainerItemProxy */;
+		};
+		4430A5DB2F6594884482515817400E4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MakeCustomOTPView";
+			target = 4FEAC889165DC7FBFF8AEB87F43B9BC4 /* Pods-MakeCustomOTPView */;
+			targetProxy = EC5B6BFDAF6A657F1E74C3719EC860EF /* PBXContainerItemProxy */;
+		};
+		63758DDD76A1386DC0D545AFD4CB08EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OTPFieldView;
+			target = 3BFA50DA07196AD4DB6512C559850F45 /* OTPFieldView */;
+			targetProxy = 47BDFF714E5952DEE33F0A23D618F1C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		31DE5E3F613ADC7AA03ABB485239DD40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D51D383EEA1B3F42CF4833A113DF2F2 /* Pods-MakeCustomOTPView-MakeCustomOTPViewUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MakeCustomOTPView-MakeCustomOTPViewUITests/Pods-MakeCustomOTPView-MakeCustomOTPViewUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MakeCustomOTPView-MakeCustomOTPViewUITests/Pods-MakeCustomOTPView-MakeCustomOTPViewUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		35BC7CFB57DF5FA34C286804B8C971B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22A52650E7F9C2676C2590C717D40498 /* Pods-MakeCustomOTPView.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MakeCustomOTPView/Pods-MakeCustomOTPView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MakeCustomOTPView/Pods-MakeCustomOTPView.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4214E6946993DF02ED98D89047C64016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4B32F2A694D4EACC754A29B4191BD6A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D9821D661375AA2A3CC223A7E2BCE40 /* Pods-MakeCustomOTPViewTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MakeCustomOTPViewTests/Pods-MakeCustomOTPViewTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MakeCustomOTPViewTests/Pods-MakeCustomOTPViewTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9B63404BD7D3F122569C56BB2921CD67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EA61AF974A5CB8F88D66A0598A491D8 /* OTPFieldView.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OTPFieldView/OTPFieldView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OTPFieldView/OTPFieldView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/OTPFieldView/OTPFieldView.modulemap";
+				PRODUCT_MODULE_NAME = OTPFieldView;
+				PRODUCT_NAME = OTPFieldView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9DE2A7816383E250AC3D5E2619F67449 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7656F67731DDA843A0D8A269B64DF8AE /* Pods-MakeCustomOTPViewTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MakeCustomOTPViewTests/Pods-MakeCustomOTPViewTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MakeCustomOTPViewTests/Pods-MakeCustomOTPViewTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A07598AD8F39E0E75E530F013C5CD233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AE4A266050A08B2623B04F6E68FB0FF /* OTPFieldView.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OTPFieldView/OTPFieldView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OTPFieldView/OTPFieldView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/OTPFieldView/OTPFieldView.modulemap";
+				PRODUCT_MODULE_NAME = OTPFieldView;
+				PRODUCT_NAME = OTPFieldView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AC638784723A14F08560E40BF4A6EA1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E40C3CF05AE9CE3B5FD895ED32355FC8 /* Pods-MakeCustomOTPView-MakeCustomOTPViewUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MakeCustomOTPView-MakeCustomOTPViewUITests/Pods-MakeCustomOTPView-MakeCustomOTPViewUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MakeCustomOTPView-MakeCustomOTPViewUITests/Pods-MakeCustomOTPView-MakeCustomOTPViewUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BED76E25524A63915FF8C171970ED1EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DE5B5BB8B8E58743C55B10761D02C25 /* Pods-MakeCustomOTPView.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MakeCustomOTPView/Pods-MakeCustomOTPView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MakeCustomOTPView/Pods-MakeCustomOTPView.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CD85FD90473CFBE797E4264E7BBC70AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AAF05F345D5DE29CC573BD62267AA91 /* Build configuration list for PBXNativeTarget "Pods-MakeCustomOTPView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BED76E25524A63915FF8C171970ED1EF /* Debug */,
+				35BC7CFB57DF5FA34C286804B8C971B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4214E6946993DF02ED98D89047C64016 /* Debug */,
+				CD85FD90473CFBE797E4264E7BBC70AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6433D111B6A10EB550A13E319D96F871 /* Build configuration list for PBXNativeTarget "OTPFieldView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B63404BD7D3F122569C56BB2921CD67 /* Debug */,
+				A07598AD8F39E0E75E530F013C5CD233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6726DE7B9ECF5A2EBEB598193798B743 /* Build configuration list for PBXNativeTarget "Pods-MakeCustomOTPViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B32F2A694D4EACC754A29B4191BD6A6 /* Debug */,
+				9DE2A7816383E250AC3D5E2619F67449 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAA42B2198721279300A657BBE08822C /* Build configuration list for PBXNativeTarget "Pods-MakeCustomOTPView-MakeCustomOTPViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31DE5E3F613ADC7AA03ABB485239DD40 /* Debug */,
+				AC638784723A14F08560E40BF4A6EA1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

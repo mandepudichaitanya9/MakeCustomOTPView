@@ -1,0 +1,16 @@
+PODS:
+  - OTPFieldView (1.0.1)
+
+DEPENDENCIES:
+  - OTPFieldView
+
+SPEC REPOS:
+  trunk:
+    - OTPFieldView
+
+SPEC CHECKSUMS:
+  OTPFieldView: 700a752fe62c41d1c4914c78aa500fb30d97c255
+
+PODFILE CHECKSUM: b4e74c3a8f1fec0f226302bb8a368e8809f7b5b0
+
+COCOAPODS: 1.11.3
